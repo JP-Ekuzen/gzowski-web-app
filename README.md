@@ -14,6 +14,8 @@
 In login page use following parameters and set your own IPv4 paste it on "Serwer" field.
 - Check it by `ipconfig` or `ifconfig en0`.
 
-![](https://i.imgur.com/2ygVU6g.jpg)
+<img style="max-width:400px;" src="https://i.imgur.com/2ygVU6g.jpg" />
 
-![](https://i.imgur.com/fNQyiZE.jpg)
+<br>
+
+<img style="max-width:400px;" src="https://i.imgur.com/fNQyiZE.jpg" />
