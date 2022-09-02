@@ -9,7 +9,7 @@
 - phpMyAdmin -> http://localhost:81
 ***
 ## phpMyAdmin
-**YOU MUSNT'T FILL "SERVER" FIELD! YOU CAN JUST LEFT IT EMPTY!**
+**YOU DO NOT NEED TO FILL IN THE "SERVER" FIELD! YOU CAN LEAVE THIS FIELD BLANK.**
 
 In login page use following parameters and set your own IPv4 paste it on "Serwer" field.
 - Check it by `ipconfig` or `ifconfig en0`.
