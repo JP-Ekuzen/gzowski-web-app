@@ -1,6 +1,18 @@
 version: "3.9"
 
 services:
+  joomla:
+    container_name: joomla
+    image: joomla
+    restart: always
+    links:
+      - db:mysql
+    ports:
+      - 8080:80
+    environment:
+      JOOMLA_DB_HOST: db
+      JOOMLA_DB_USER: root
+      JOOMLA_DB_PASSWORD: root
   db:
     container_name: mysql
     image: mysql:8.0.30
@@ -25,3 +37,5 @@ services:
       - PMA_CONTROLPASS=${PHPMYADMIN_CONTROLPASS}
     ports:
       - 81:80
+    depends_on:
+      - "db"

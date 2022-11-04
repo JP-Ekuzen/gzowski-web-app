@@ -7,6 +7,7 @@
 
 ## Notes
 - phpMyAdmin -> http://localhost:81
+- Joomla -> http://localhost:8080
 ***
 ## phpMyAdmin
 **YOU DO NOT NEED TO FILL IN THE "SERVER" FIELD! YOU CAN LEAVE THIS FIELD BLANK.**
