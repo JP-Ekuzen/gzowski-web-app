@@ -9,6 +9,8 @@ services:
       - db:mysql
     ports:
       - 8080:80
+    volumes:
+      - ./joomla:/var/www
     environment:
       JOOMLA_DB_HOST: db
       JOOMLA_DB_USER: root
